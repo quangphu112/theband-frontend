@@ -10,11 +10,7 @@ for(var buyBtn of buyBtns) {
 
 
 
-// $(document).ready(function() {
-//     $('.js-modal-close').click(function() {
-//         $('.js-modal').removeClass('modal-open')
-//     })
-// });
+
 
 document.querySelector('.js-modal-close').addEventListener('click', function() {
     document.querySelector('.js-modal').classList.remove('modal-open');
@@ -28,5 +24,6 @@ document.querySelector('.js-modal').addEventListener('click', function() {
 document.querySelector('.js-modal-container').addEventListener('click', function(event) {
     event.stopPropagation();
 });
+
 
 
